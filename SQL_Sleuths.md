@@ -47,8 +47,39 @@ FROM get_fit_now_member
 WHERE person_id IN ("51739", "67318");
 
 12. INSERT INTO solution VALUES (1, 'Jeremy Bowers'); 
-SELECT value FROM solution; 
+SELECT value FROM solution;
+
 ![image](https://github.com/user-attachments/assets/0e05ee91-15d6-42ea-a917-409027bb5210)
+
+13. SELECT *
+FROM interview
+WHERE person_id = "67318";
+
+14. SELECT *
+FROM drivers_license
+WHERE gender = "female"
+	AND hair_color = "red"
+	AND height BETWEEN 65 AND 67
+	AND car_make = "Tesla"
+	AND car_model = "Model S";
+
+15. SELECT *
+FROM person
+WHERE license_id IN ("202298", "291182", "918773");
+
+16. SELECT 
+	person_id, 
+    event_name, 
+    COUNT(*) AS event_count
+FROM facebook_event_checkin
+WHERE person_id IN ("78881", "90700", "99716")
+GROUP BY person_id, event_name;
+
+17. INSERT INTO solution VALUES (1, 'Miranda Priestly');
+SELECT value FROM solution;
+
+![image](https://github.com/user-attachments/assets/ae1e92b3-6447-4d83-8259-074898408271)
+
 
 
 
