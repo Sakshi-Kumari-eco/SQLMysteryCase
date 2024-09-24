@@ -48,6 +48,7 @@ WHERE person_id IN ("51739", "67318");
 
 12. INSERT INTO solution VALUES (1, 'Jeremy Bowers'); 
 SELECT value FROM solution; 
+![image](https://github.com/user-attachments/assets/0e05ee91-15d6-42ea-a917-409027bb5210)
 
 
 
