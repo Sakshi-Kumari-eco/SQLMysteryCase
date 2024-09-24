@@ -48,3 +48,5 @@ WHERE person_id IN ("51739", "67318");
 
 12. INSERT INTO solution VALUES (1, 'Jeremy Bowers'); 
 SELECT value FROM solution; 
+
+
